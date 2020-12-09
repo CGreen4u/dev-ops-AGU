@@ -66,6 +66,14 @@ Accessing your systems is done by following the `localhost:####` locations liste
 
 
 ### Streaming data
+
+In order to stream data you will need to access Nifi. go to the localhost that your Nifi system is located at. 
+in the repository dev-ops there is a folder labeled nifi. access this folder and select heartbeatv16.xml
+load this file into the system by selecting the load icon on the option menu within the Nifi interface. 
+
+The xml file has all the configuration needed for the system you will just need to highlight the main module and select run.
+This action will get the streaming process running. 
+
 #### Integrating your model with the system
 The system is designed to be configured throught the configuration.json file once a new machine learning mondel is introduced. This system will autofill any missing data backlog.
 
